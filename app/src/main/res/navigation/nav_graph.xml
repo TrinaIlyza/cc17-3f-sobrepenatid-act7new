@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/famousPlacesFragment2">
+
+    <fragment
+        android:id="@+id/coffeeShopsFragment2"
+        android:name="com.example.baguiocityapp.CoffeeShopsFragment"
+        android:label="Coffee Shops"
+        tools:layout="@layout/fragment_place_list" />
+
+    <fragment
+        android:id="@+id/famousPlacesFragment2"
+        android:name="com.example.baguiocityapp.FamousPlacesFragment"
+        android:label="Famous Places"
+        tools:layout="@layout/fragment_place_list" />
+
+    <fragment
+        android:id="@+id/thriftShopsFragment"
+        android:name="com.example.baguiocityapp.ThriftShopsFragment"
+        android:label="Thrift Shops"
+        tools:layout="@layout/fragment_place_list" />
+</navigation>
