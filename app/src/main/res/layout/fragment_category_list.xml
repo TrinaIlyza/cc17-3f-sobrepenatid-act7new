@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cfb6b2"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/categoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:padding="@dimen/text_padding"
+        android:textColor="#5a315d"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/recommendationListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/text_padding"
+        android:paddingBottom="@dimen/text_padding"
+        android:textColor="#5a315d"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="5dp"
+        android:textSize="50sp" />
+
+</LinearLayout>

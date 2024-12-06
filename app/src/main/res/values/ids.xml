@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recommendationListView" type="id">recommendationlistview</item>
+    <item name="categoryTitle" type="id">Category Title</item>
+    <item name="bottomNavigation" type="id">bottom Navigation</item>
+    <item name="action_mainFragment_to_categoryFragment" type="id">main to categoru</item>
+    <item name="categoryFragment" type="id">Category Fragment</item>
+    <item name="detailFragment" type="id">Detail Fragment</item>
+    <item name="mainFragment" type="id">Main Fragment</item>
+    <item name="category1" type="id">cat1</item>
+    <item name="category3" type="id">cat3</item>
+    <item name="category2" type="id">cat2</item>
+</resources>
